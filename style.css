@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+.navbar {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar #title {
+    width: 600px;
+}
+
+.navbar #about {
+    color: royalblue;
+    align-self: center;
+}
+
+.navbar #interests {
+    color: gold;
+    align-self: center;
+}
+
+.navbar #academics {
+    color: limegreen;
+    align-self: center;
+}
+
+.navbar #extra {
+    color: red;
+    align-self: center;
+}
+
+.navbar #more {
+    color: white;
+    align-self: center;
+}
+
+
+#aboutsection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#aboutsection #abouttitle {
+    color: royalblue;
+    font-size: 25px;
+}
+
+#aboutsection #aboutname {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#aboutsection #aboutdesc {
+    width: 500px;
+}
+
+#interestssection {
+    display: flex;
+    background-image: url(gradient.jpg);
+    background-size: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#interestssection #intereststitle {
+    font-size: 25px;
+    color: gold;
+}
+
+#interestssection #interestsdesc {
+    width: 500px;
+}
+
+#academicssection {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+#academicssection #academicstitle {
+    font-size: 25px;
+    text-align: center;
+    color: limegreen;
+}
+
+#extracurricularssection {
+    display: flex;
+    background-image: url(gradient3.avif);
+    background-size: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#extracurricularssection #extracurricularstitle {
+    font-size: 25px;
+    text-align: center;
+    color: red;
+}
+
+#moresection {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+#moresection #moretitle {
+    font-size: 25px;
+}
+
+#moresection #number {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#moresection #email {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
+
