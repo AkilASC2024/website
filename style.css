@@ -7,6 +7,8 @@ body {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-evenly;
+    position: sticky;
+    top:8px;
 }
 
 .navbar #title {
@@ -124,6 +126,49 @@ body {
     font-weight: bolder;
 }
 
+#moresection #creations {
+    display: flex;
+    align-content: space-between;
+}
+
+.gradient {
+    width: 500px;
+    height: 300px;
+    margin: 70px;
+}
+
+#moresection #creations #firstcreation {
+    text-align: center;
+}
+
+#moresection #creations #secondcreation {
+    text-align: center;
+}
+
+@media(max-width: 1030px){
+    body {
+        font-size: 100%;
+    }
+    .navbar #title {
+        width: 100%;
+    }
+}
+
+@media(max-width: 530px){
+    body {
+        font-size: 50%;
+    }
+    .navbar #title {
+        width: 50%;
+    }
+}
+
+#topbutton {
+    font-family: 'Segoe UI';
+    background-color: black;
+    color: white;
+    position: sticky;
+}
 
 
 
